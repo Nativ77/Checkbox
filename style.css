@@ -233,7 +233,7 @@
     height: 30px;
     border: 2px double blue;
     border-radius: 3px;
-    background: yellow;
+    background: rgb(152, 228, 228);
     position: relative;
 }
 
@@ -256,19 +256,19 @@
     height: 30px;
     border: 2px solid rgb(3, 97, 100);
     border-radius: 50%;
-    background: rgb(152, 228, 228);
+    background: yellow;
     position: relative;
 }
 
 .fake-radio-4::before{
-    content: url(./img/heart-7.svg);
+    content: url(./img/20399288081529659195.svg);
     opacity: 0;
     display: block;
     position: absolute;
     width: 25px;
     height: 25px;
-    left: 30%;
-    top: 50%;
+    left: 55%;
+    top: 45%;
     transform: translate(-50%, -50%);
     transition: 1s;
 }
@@ -281,4 +281,8 @@
 .text-3{
     color: rgb(12, 9, 197);
     font-size: 22px;
+}
+
+.heart{
+    padding: 28px 0 0 77px;
 }
